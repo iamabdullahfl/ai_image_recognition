@@ -158,8 +158,8 @@ model.save('project_ann.keras')
 #     print(f"PNG round-trip agrees with direct prediction: {agree}/20")
 #     os.remove(os.path.join(BASE, '_tmp_row.png'))
 
-
-if __name__ == '__main__':
-    predict_image(TEST_IMG)
-    test_variants(TEST_IMG)
-    # test_on_dataset_rows()     # uncomment for the pipeline sanity check
+#
+# if __name__ == '__main__':
+#     predict_image(TEST_IMG)
+#     test_variants(TEST_IMG)
+#     # test_on_dataset_rows()     # uncomment for the pipeline sanity check
