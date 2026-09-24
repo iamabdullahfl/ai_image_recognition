@@ -6,6 +6,10 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
+#one problem we need to fix next time is that we
+#have to make sure that the csv contains the images stretched from multiple sides
+#at different crops 
+
 dataset = pd.read_csv(r'D:\5th Semester\Artificial Neural Networks and Deep Learning\Labs\dataset\28x28_rgb.csv')
 X=dataset.drop(dataset.columns[0],axis=1)
 Y=dataset[dataset.columns[0]]
