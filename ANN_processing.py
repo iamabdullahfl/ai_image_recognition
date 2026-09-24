@@ -33,6 +33,10 @@ model = Sequential([
     Activation('relu'),
     Dense(512),
     Activation('relu'),
+    Dense(256),
+    Activation('relu'),
+    Dense(128),
+    Activation('relu'),
     Dense(3),
     Activation('softmax')
 
