@@ -250,4 +250,6 @@
 # if __name__ == '__main__':
 #     predict_image(TEST_IMG)
 #     test_variants(TEST_IMG)
-#     # test_on_dataset_rows()     # uncomment for the pipeline sanity check
+#     # test_on_dataset_rows()
+# uncomment for the pipeline sanity check
+
